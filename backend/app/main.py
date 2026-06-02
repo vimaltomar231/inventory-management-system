@@ -17,6 +17,7 @@ Base.metadata.create_all(bind=engine)
 # CORS Configuration
 origins = [
     "http://localhost:3000",
+    "https://inventory-management-systems-six.vercel.app/"
 ]
 
 app.add_middleware(
