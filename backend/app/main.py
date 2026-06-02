@@ -15,9 +15,11 @@ app = FastAPI()
 Base.metadata.create_all(bind=engine)
 
 # CORS Configuration
+from fastapi.middleware.cors import CORSMiddleware
+
 origins = [
     "http://localhost:3000",
-    "https://inventory-management-systems-six.vercel.app/"
+    "https://inventory-management-systems-ii6x5qs24-vimaltomar.vercel.app",
 ]
 
 app.add_middleware(
