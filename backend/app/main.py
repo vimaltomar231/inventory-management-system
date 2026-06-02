@@ -28,6 +28,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+#fdfgf
+
 # Routes
 app.include_router(product_router)
 app.include_router(customer_router)
